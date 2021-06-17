@@ -41,8 +41,5 @@ class pose_estimation():
 
 		return lmlist
 
-# https://pixabay.com/videos/boy-jump-dance-man-person-dancing-21827/
-# https://www.pexels.com/video/a-woman-jogging-6293202/
-
 if __name__ == "__main__":
 	main()
