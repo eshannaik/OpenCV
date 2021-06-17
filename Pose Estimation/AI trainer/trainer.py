@@ -89,5 +89,5 @@ while 1:
 	if cv2.waitKey(20) & 0xFF == 27 or cv2.getWindowProperty("Image",0) == -1:
 		break
 
-# cap.release()
+cap.release()
 cv2.destroyAllWindows()
