@@ -18,7 +18,6 @@ pe = p.pose_estimation()
 
 while 1:
 	_,img = cap.read()
-	new_img = cv2.cvtColor(img,cv2.COLOR_BGR2RGB)
 
 	img = pe.estimation(img)
 	lmlist = pe.points(img)

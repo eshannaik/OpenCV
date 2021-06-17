@@ -16,10 +16,10 @@ class pose_estimation():
 		self.pose = self.mpPose.Pose(self.mode,self.upper_body,self.landmark_smooth,self.detectionCon,self.trackCon)
 
 	def estimation(self,img,draw=True):
-		self.results = self.pose.process(img)
+		new_img = cv2.cvtColor(img,cv2.COLOR_BGR2RGB)
+		self.results = self.pose.process(new_img)
 
 		if self.results.pose_landmarks:
-			# for p in self.results.pose_landmarks:
 			if draw:
 				self.mpDraw.draw_landmarks(img,self.results.pose_landmarks,self.mpPose.POSE_CONNECTIONS)
 
