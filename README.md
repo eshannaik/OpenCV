@@ -9,6 +9,7 @@
     volumn control
     finger counting
     Virtual Painter
+    Virtual Mouse
     
 ##### Pose Estimation file has - 
     AI trainer
