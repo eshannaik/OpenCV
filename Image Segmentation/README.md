@@ -1,3 +1,3 @@
 # Image Segmentation
 
-### Image segementation doen using KMeans.
+### Image segementation done using KMeans.
