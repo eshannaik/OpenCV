@@ -12,8 +12,8 @@ args = vars(ap.parse_args())
 img_path = args['image']
 
 #Loading the Mask-RCNN model
-net = cv2.dnn.readNetFromTensorflow("./source code/dnn/frozen_inference_graph_coco.pb",
-								   "./source code/dnn/mask_rcnn_inception_v2_coco_2018_01_28.pbtxt")
+net = cv2.dnn.readNetFromTensorflow("./dnn/frozen_inference_graph_coco.pb",
+								   "./dnn/mask_rcnn_inception_v2_coco_2018_01_28.pbtxt")
 
 #Colors to fill the mask
 colors = np.random.randint(0,255,(80,3)) # 80 because this model can detect 80 different objects and 3 because 3 channels
