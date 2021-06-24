@@ -13,3 +13,7 @@
     
 ##### Pose Estimation file has - 
     AI trainer
+    
+##### Image Segmentation - 
+    Using KMeans
+    Using Mask RCNN
