@@ -1,3 +1,3 @@
 # Object Size
 
-#### The purpose of this project is to find the size of an object.
+#### The purpose of this project is to width and the height the size of an object.
