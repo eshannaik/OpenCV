@@ -17,3 +17,7 @@
 ##### Image Segmentation - 
     Using KMeans
     Using Mask RCNN
+    
+##### Object Detection - 
+    Object Detection using yolo
+    Object size measurement
