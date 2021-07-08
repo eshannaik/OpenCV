@@ -13,6 +13,7 @@
     
 ##### Pose Estimation file has - 
     AI trainer
+    Body size measurement
     
 ##### Image Segmentation - 
     Using KMeans
